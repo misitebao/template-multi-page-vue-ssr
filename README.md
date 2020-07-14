@@ -1,5 +1,5 @@
 <!--
- * @LastEditTime : 2020-07-17 12:13:56
+ * @LastEditTime : 2020-07-17 12:14:24
  * @Description: readme
  -->
 
@@ -15,6 +15,5 @@ npm install
 npm run dev:client
 
 # webpack打包构建
-
 npm run build:client
 ```
