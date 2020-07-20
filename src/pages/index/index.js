@@ -2,10 +2,13 @@
  * @Author       : MS
  * @LastEditors  : MS
  * @Description  : 首页脚本
- */ 
+ */
 
 import Vue from "vue/dist/vue.js";
-import "../stylus/index.stylus"
+import "../../assets/stylus/index.stylus"
+
+import Demo from '../../components/public/Demo.vue';
+
 console.log(RUN_ENV)
 
 
@@ -15,5 +18,10 @@ new Vue({
     },
     mounted() {
         console.log('monuted!')
-    }
+    },
+    components: {
+        Demo
+    },
+
+    // render: (h) => h(Demo),
 }).$mount("#app");

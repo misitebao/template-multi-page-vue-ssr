@@ -6,6 +6,7 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const webpack = require('webpack')
 
 
@@ -13,7 +14,7 @@ const { getEntrys, getHtmlWebpackPlugins } = require("../src/lib/index.js");
 
 // 页面列表
 let pageList = [
-  "index"
+  "index", "about"
 ];
 
 module.exports = {
@@ -35,6 +36,7 @@ module.exports = {
       OPEN_PROXY: JSON.stringify(process.env.OPEN_PROXY),
     }),
     ...getHtmlWebpackPlugins(pageList),
+    new VueLoaderPlugin(),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       publicPath: '../',
@@ -43,6 +45,10 @@ module.exports = {
   ],
   module: {
     rules: [
+      {
+        test: /\.vue$/,
+        use: [{ loader: 'vue-loader' }],
+      },
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"]
