@@ -1,14 +1,20 @@
 # template-multi-page-vue-ssr
 
-## 步骤
+English | [中文文档](README_zh.md)
 
-```bash
-# 安装依赖
+A multi page server rendering project template based on 'webpack' +'vue '
+
+## Setup
+
+``` bash
+# Installation dependency
 npm install
 
-# webpack-dev-server启动
+# starting with webpack-dev-server
 npm run dev:client
 
-# webpack打包构建
-npm run build:dev
+# package build
+npm run build:dev   develop
+npm run build:test  testing
+npm run build:prod  production
 ```
