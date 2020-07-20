@@ -1,14 +1,17 @@
 /*
- * @LastEditTime : 2020-06-11 11:26:13
- * @Description: 基础环境配置
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 基础环境配置
  */
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require('webpack')
+
 
 const { getEntrys, getHtmlWebpackPlugins } = require("../src/lib/index.js");
 
-// 页面
+// 页面列表
 let pageList = [
   "index"
 ];
@@ -23,7 +26,14 @@ module.exports = {
     filename: "js/[name].js",
     chunkFilename: "js/[chunkhash:8].chunk.js"
   },
-  plugins: [
+  // externals: {
+  //   vue: 'Vue',
+  // },
+  plugins: [// 多环境配置环境变量
+    new webpack.DefinePlugin({
+      RUN_ENV: JSON.stringify(process.env.RUN_ENV),
+      OPEN_PROXY: JSON.stringify(process.env.OPEN_PROXY),
+    }),
     ...getHtmlWebpackPlugins(pageList),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
@@ -38,12 +48,12 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"]
       },
       {
-        test: /\.scss$/,
+        test: /\.styl(us)?$/,
         use: [
           MiniCssExtractPlugin.loader,
           "css-loader",
           "postcss-loader",
-          "sass-loader"
+          "stylus-loader"
         ]
       },
       {

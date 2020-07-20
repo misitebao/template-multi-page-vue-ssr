@@ -1,8 +1,3 @@
-<!--
- * @LastEditTime : 2020-07-17 12:15:08
- * @Description: readme
- -->
-
 # template-multi-page-vue-ssr
 
 ## 步骤
@@ -15,5 +10,5 @@ npm install
 npm run dev:client
 
 # webpack打包构建
-npm run build:client
+npm run build:dev
 ```

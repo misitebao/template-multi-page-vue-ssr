@@ -1,33 +1,31 @@
 {
-  "name": "template-multi-page-vue-ssr",
+  "name": "multi-page-webpack-vue-ssr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev:server": "echo \"dev:server\"",
-    "dev:client": "npx webpack-dev-server --config build/webpack.dev.config.js",
-    "build:client": "npx webpack  --config build/webpack.prod.config.js",
-    "build": "npx webpack  --config build/webpack.prod.config.js"
+    "dev:client": "npx cross-env RUN_ENV=dev npx webpack-dev-server --progress --colors --config build/webpack.dev.config.js",
+    "build:dev": "npx cross-env RUN_ENV=dev npx webpack --progress --colors --config build/webpack.prod.config.js",
+    "build:test": "npx cross-env RUN_ENV=test npx webpack --progress --colors --config build/webpack.prod.config.js",
+    "build:prod": "npx cross-env RUN_ENV=prod npx webpack --progress --colors --config build/webpack.prod.config.js"
   },
-  "templateName": "template-multi-page-vue-ssr",
+  "templateName": "multi-page-webpack-vue-ssr",
   "keywords": [],
-  "author": "misitebao",
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/misitebao/template-multi-page-vue-ssr.git"
-  },
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.4.2",
     "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.0",
     "postcss-loader": "^3.0.0",
-    "sass-loader": "^8.0.2",
     "style-loader": "^1.1.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
     "url-loader": "^3.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",

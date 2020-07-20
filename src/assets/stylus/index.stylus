@@ -1,0 +1,9 @@
+/*
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 首页样式样式
+ */ 
+h1 {
+    font-size: 18px;
+    color: #545454;
+}

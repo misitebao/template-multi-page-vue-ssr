@@ -1,10 +1,17 @@
+/*
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 首页脚本
+ */ 
 
 import Vue from "vue/dist/vue.js";
-import "../scss/index.scss"
+import "../stylus/index.stylus"
+console.log(RUN_ENV)
+
 
 new Vue({
     data: {
-        title: 'index page'
+        title: '首页'
     },
     mounted() {
         console.log('monuted!')
