@@ -1,7 +1,8 @@
 /*
- * @LastEditTime : 2020-06-11 11:42:04
- * @Description: 工具库
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 工具库
+ */ 
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 

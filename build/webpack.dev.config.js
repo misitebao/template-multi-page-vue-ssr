@@ -1,7 +1,8 @@
 /*
- * @LastEditTime: 2020-03-18 10:01:33
- * @Description: 开发环境配置
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 开发环境配置
+ */ 
 const path = require("path");
 
 const baseConfig = require("./webpack.base.config.js");
