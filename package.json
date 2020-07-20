@@ -6,7 +6,7 @@
   "scripts": {
     "dev:server": "echo \"dev:server\"",
     "dev:client": "npx cross-env RUN_ENV=dev npx webpack-dev-server --progress --colors --config build/webpack.dev.config.js",
-    "build:dev": "npx cross-env RUN_ENV=dev npx webpack --progress --colors --config build/webpack.prod.config.js",
+    "build:dev": "npx cross-env RUN_ENV=dev OPEN_PROXY=false npx webpack --progress --colors --config build/webpack.prod.config.js",
     "build:test": "npx cross-env RUN_ENV=test npx webpack --progress --colors --config build/webpack.prod.config.js",
     "build:prod": "npx cross-env RUN_ENV=prod npx webpack --progress --colors --config build/webpack.prod.config.js"
   },
