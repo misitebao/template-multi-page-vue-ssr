@@ -2,13 +2,22 @@
 
 <p align="center">
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/github/repo-size/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+        <img src="https://img.shields.io/github/issues/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
     </a>
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+        <img src="https://img.shields.io/github/repo-size/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
     </a>
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/github/license/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+        <img src="https://img.shields.io/github/stars/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/languages/count/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/license/misitebao/template-multi-page-vue-ssr?style=flat-square" alt="version"/>
     </a>
 </p>
 
