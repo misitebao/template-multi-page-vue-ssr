@@ -1,11 +1,18 @@
 # template-multi-page-vue-ssr
 
+<p align="center">
+
+        <a href="">https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr</a>
+
+</p>
+
 [English](README.md) | 中文文档
 
 一个基于 `Webpack` + `Vue` 的多页面服务端渲染项目模板
+
 ## 使用步骤
 
-```bash
+``` bash
 # 安装依赖
 npm install
 
