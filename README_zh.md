@@ -1,11 +1,24 @@
 # template-multi-page-vue-ssr
 
+<p align="center">
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/repo-size/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/license/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
+    </a>
+</p>
+
 [English](README.md) | 中文文档
 
 一个基于 `Webpack` + `Vue` 的多页面服务端渲染项目模板
+
 ## 使用步骤
 
-```bash
+``` bash
 # 安装依赖
 npm install
 
