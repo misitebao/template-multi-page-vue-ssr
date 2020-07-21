@@ -2,13 +2,13 @@
 
 <p align="center">
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://img.shields.io/github/repo-size/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version">
+        <img width="100" src="https://img.shields.io/github/repo-size/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
     </a>
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version">
+        <img width="100" src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
     </a>
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://img.shields.io/github/license/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version">
+        <img width="100" src="https://img.shields.io/github/license/misitebao/template-multi-page-vue-ssr?style=for-the-badge" alt="version"/>
     </a>
 </p>
 
