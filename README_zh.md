@@ -1,9 +1,9 @@
 # template-multi-page-vue-ssr
 
 <p align="center">
-
-        <a href="">https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr</a>
-
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img width="100" src="https://img.shields.io/github/v/release/misitebao/template-multi-page-vue-ssr" alt="version">
+    </a>
 </p>
 
 [English](README.md) | 中文文档
