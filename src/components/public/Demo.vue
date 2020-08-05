@@ -4,7 +4,8 @@
  * @Description  : 示例组件
 --> 
 <template>
-  <div class="demo">demo components</div>
+  <div class="demo">
+  </div>
 </template>
 
 <script>
@@ -21,7 +22,7 @@ export default {
   created() {},
   mounted() {},
   methods: {},
-  filter: {}
+  filter: {},
 };
 </script>
 
