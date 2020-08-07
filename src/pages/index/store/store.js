@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        name: "index-index"
+        name: "首页-单页模式"
     },
     mutations: {
     },

@@ -32,10 +32,10 @@ A multi page server rendering project template based on 'webpack' +'vue '
 npm install
 
 # starting with webpack-dev-server
-npm run dev:client
+npm run dev:page
 
 # package build
-npm run build:dev   develop
-npm run build:test  testing
-npm run build:prod  production
+npm run build:page:dev   develop
+npm run build:page:test  testing
+npm run build:page:prod  production
 ```

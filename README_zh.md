@@ -32,10 +32,10 @@
 npm install
 
 # webpack-dev-server启动
-npm run dev:client
+npm run dev:page
 
 # webpack打包构建
-npm run build:dev   开发
-npm run build:test  测试
-npm run build:prod  生产
+npm run build:page:dev   开发
+npm run build:page:test  测试
+npm run build:page:prod  生产
 ```

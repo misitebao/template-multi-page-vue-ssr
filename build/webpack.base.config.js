@@ -43,6 +43,12 @@ module.exports = {
       filename: "css/[name].css",
     })
   ],
+  resolve: {
+    // extensions: ['.js', '.vue', '.jsx', '.json'],
+    alias: {
+      '@': path.join(__dirname, '../src'),
+    },
+  },
   module: {
     rules: [
       {
