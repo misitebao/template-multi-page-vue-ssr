@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import Index from "../../../components/indexPage/Index.vue";
+import Index from "@/components/indexPage/Index.vue";
 
 export default new VueRouter({
     routes: [{

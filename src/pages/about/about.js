@@ -5,23 +5,20 @@
  */
 
 import Vue from "vue/dist/vue.js";
-import "../../assets/stylus/index.stylus"
+import "@/assets/stylus/about.stylus"
 
-import Demo from '../../components/public/Demo.vue';
+import Demo from '@/components/public/Demo.vue';
 
 console.log(RUN_ENV)
 
 
 new Vue({
     data: {
-        title: '关于'
+        title: '关于页-服务端渲染模式'
     },
-    mounted() {
-        console.log('monuted!')
-    },
+    mounted() { },
     components: {
         Demo
     },
-
     // render: (h) => h(Index),
 }).$mount("#app");
