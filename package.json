@@ -1,14 +1,14 @@
 {
   "name": "template-multi-page-vue-ssr",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "一个基于 Webpack + Vue 的多页面服务端渲染项目模板",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "dev:server": "echo \"dev:server\"",
-    "dev:client": "npx cross-env RUN_ENV=dev npx webpack-dev-server --progress --colors --config build/webpack.dev.config.js",
-    "build:dev": "npx cross-env RUN_ENV=dev OPEN_PROXY=false npx webpack --progress --colors --config build/webpack.prod.config.js",
-    "build:test": "npx cross-env RUN_ENV=test npx webpack --progress --colors --config build/webpack.prod.config.js",
-    "build:prod": "npx cross-env RUN_ENV=prod npx webpack --progress --colors --config build/webpack.prod.config.js"
+    "dev:page": "npx cross-env RUN_ENV=dev npx webpack-dev-server --config build/webpack.dev.config.js",
+    "build:page:dev": "npx cross-env RUN_ENV=dev npx webpack --config build/webpack.prod.config.js",
+    "build:page:test": "npx cross-env RUN_ENV=test npx webpack --config build/webpack.prod.config.js",
+    "build:page:prod": "npx cross-env RUN_ENV=prod npx webpack --config build/webpack.prod.config.js",
+    "serve:page:test": "npx serve dist"
   },
   "templateName": "template-multi-page-vue-ssr",
   "keywords": [],
@@ -23,6 +23,7 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-loader": "^3.0.0",
+    "serve": "^11.3.2",
     "style-loader": "^1.1.2",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.2",
