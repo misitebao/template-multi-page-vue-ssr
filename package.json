@@ -1,6 +1,6 @@
 {
   "name": "template-multi-page-vue-ssr",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "一个基于 Webpack + Vue 的多页面服务端渲染项目模板",
   "main": "",
   "scripts": {
