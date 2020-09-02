@@ -13,10 +13,13 @@ module.exports = webpackMerge(baseConfig, {
   devtool: "inline-source-map",
   devServer: {
     open: true,
-    contentBase: path.join(__dirname, "./dist"),
-    publicPath: "/",
-    host: "127.0.0.1",
+    contentBase: path.join(__dirname, '../dist'),
+    publicPath: '/',
+    host: '0.0.0.0',
+    useLocalIp: true,
     compress: true,
-    port: 8080
+    port: 8080,
+    hot: true,
+    overlay: true,
   }
 });
