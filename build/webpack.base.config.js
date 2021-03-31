@@ -27,9 +27,9 @@ module.exports = {
     filename: "js/[name].js",
     chunkFilename: "js/[chunkhash:8].chunk.js"
   },
-  // externals: {
-  //   vue: 'Vue',
-  // },
+  externals: {
+    vue: 'Vue',
+  },
   plugins: [// 多环境配置环境变量
     new webpack.DefinePlugin({
       RUN_ENV: JSON.stringify(process.env.RUN_ENV),

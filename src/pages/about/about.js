@@ -4,7 +4,7 @@
  * @Description  : 关于页面脚本
  */
 
-import Vue from "vue/dist/vue.js";
+// import Vue from "vue/dist/vue.js";
 import "@/assets/stylus/about.stylus"
 
 import Demo from '@/components/public/Demo.vue';

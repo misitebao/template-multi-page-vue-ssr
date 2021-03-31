@@ -4,7 +4,7 @@
  * @Description  : 首页脚本
  */
 
-import Vue from "vue";
+// import Vue from "vue";
 import router from './router/router.js'
 import store from './store/store.js'
 import "@/assets/stylus/index.stylus"
